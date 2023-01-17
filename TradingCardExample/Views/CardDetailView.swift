@@ -20,7 +20,8 @@ struct CardDetailView: View {
             }
             
             // Character name
-            Text("😎")
+            //"Emoji"
+            Text("🍣")
                 .font(Font.custom("Helvetica", size: 144.0, relativeTo: .largeTitle))
             
             Group {
@@ -31,31 +32,35 @@ struct CardDetailView: View {
                     .fontWeight(.bold)
                 
                 // Style description
-                Text("A sunny disposition, Mr. Sunglasses likes to cruise the highways of California in his vintage convertible.")
+                //"description"
+                Text("Having a sunny disposition, Mr. Sunglasses likes to cruise the highways of California in his vintage convertible.")
                 
-                // Age
-                Text("Age")
+                // Type
+                //"Type"
+                Text("Type")
                     .font(.title2.smallCaps())
                     .fontWeight(.bold)
                 
-                // Age description
-                Text("27")
+                // Type description
+                Text("Nigiri")
 
-                // Height
-                Text("Height")
+                // Combo
+                //"Combot"
+                Text("Combo")
                     .font(.title2.smallCaps())
                     .fontWeight(.bold)
                 
-                // Height description
-                Text("180 cm")
+                // Combo description
+                Text("Wasabi and Soy Sauce")
 
-                // Height
-                Text("Sign")
+                //Element
+                //"Element"
+                Text("Element")
                     .font(.title2.smallCaps())
                     .fontWeight(.bold)
                 
-                // Height description
-                Text("Pisces")
+                // Element description
+                Text("Water")
 
             }
             
@@ -66,8 +71,9 @@ struct CardDetailView: View {
         // Give all elements inside the VStack a bit of padding
         .padding()
         // Background
+        //"color"
         .background(
-            Color("Peach")
+            Color("Yellow")
         )
         // Trim sharp edges of VStack box
         .clipShape(
@@ -81,7 +87,8 @@ struct CardDetailView: View {
         // Move in from edges
         .padding()
         // Nav title
-        .navigationTitle("Mr. Sunglasses")
+        //"name"
+        .navigationTitle("Nigiri")
 
     }
 }
